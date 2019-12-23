@@ -1,0 +1,5 @@
+FROM hseeberger/scala-sbt:scala-2.12.2-sbt-0.13.15
+ADD project project
+ADD src src
+ADD build.sbt build.sbt
+RUN sbt assembly
