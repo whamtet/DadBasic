@@ -10,14 +10,9 @@ Programming language based on the Dadisms of Chris Molloy.
 
 ## Quick Start
 
-	wget http://lhartikk.github.io/DadBasic.jar
 	echo -e "FRONT ROWS TAKE AIM!\nWHAT A DAG \"hello world\"\nI'LL GO WASH THE DISHES" > hello.basic
 	java -jar DadBasic.jar hello.basic
 	java hello
-
-To create some "audible" output you can try the -declaim option:
-
-	java -jar DadBasic.jar -declaim hello.basic
 
 ## Brief overview of the keywords
 
