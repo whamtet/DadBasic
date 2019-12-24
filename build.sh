@@ -1,3 +1,4 @@
+rm project/build.properties
 docker build -t dadbasic .
 mkdir tmp
 rm tmp/*

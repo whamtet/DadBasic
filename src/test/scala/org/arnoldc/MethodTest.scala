@@ -1,8 +1,8 @@
-package org.arnoldc
+package org.dadbasic
 
 import org.parboiled.errors.ParsingException
 
-class MethodTest extends ArnoldGeneratorTest {
+class MethodTest extends DadGeneratorTest {
 
   it should "evalute method other than main" in {
     val code =

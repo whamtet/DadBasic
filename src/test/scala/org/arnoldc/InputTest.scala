@@ -1,8 +1,8 @@
-package org.arnoldc
+package org.dadbasic
 import org.scalatest.{Matchers, FlatSpec}
 import java.io._
 
-class InputTest extends ArnoldGeneratorTest{
+class InputTest extends DadGeneratorTest {
 
   it should "read integer from input" in {
     writeToFile(path, "123")

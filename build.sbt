@@ -2,7 +2,7 @@ import AssemblyKeys._
 
 assemblySettings
 
-name := "ArnoldC"
+name := "DadBasic"
 
 version := "0.1"
 

@@ -1,8 +1,8 @@
-package org.arnoldc
+package org.dadbasic
 
 import org.parboiled.errors.ParsingException
 
-class LogicalTest extends ArnoldGeneratorTest {
+class LogicalTest extends DadGeneratorTest {
   it should "False Or True Evaluate True" in {
     val code = "IT'S SHOWTIME\n" +
       "HEY CHRISTMAS TREE var\n" +

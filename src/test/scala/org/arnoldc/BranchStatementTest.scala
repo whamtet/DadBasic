@@ -1,6 +1,6 @@
-package org.arnoldc
+package org.dadbasic
 
-class BranchStatementTest extends ArnoldGeneratorTest {
+class BranchStatementTest extends DadGeneratorTest {
   it should "function using simple if statements" in {
     val code =
       "IT'S SHOWTIME\n" +

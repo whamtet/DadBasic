@@ -1,8 +1,8 @@
-package org.arnoldc
+package org.dadbasic
 
 import org.parboiled.errors.ParsingException
 
-class ArithmeticTest extends ArnoldGeneratorTest {
+class ArithmeticTest extends DadGeneratorTest {
 
   it should "function when a variable is declared" in {
     val code: String =

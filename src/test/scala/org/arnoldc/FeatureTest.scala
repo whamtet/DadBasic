@@ -1,6 +1,6 @@
-package org.arnoldc
+package org.dadbasic
 
-class FeatureTest extends ArnoldGeneratorTest {
+class FeatureTest extends DadGeneratorTest {
 
   it should "print fibonacci numbers from 1 to 10" in {
     val code = "IT'S SHOWTIME\n" +
