@@ -7,16 +7,16 @@ class InputTest extends DadGeneratorTest {
   it should "read integer from input" in {
     writeToFile(path, "123")
     val code =
-      "IT'S SHOWTIME\n" +
-      "TALK TO THE HAND \"Input a number:\"\n" +
-      "HEY CHRISTMAS TREE result\n" +
-      "YOU SET US UP 0\n" +
-      "GET YOUR ASS TO MARS result\n" +
-      "DO IT NOW\n" +
-      "I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY\n" +
-      "TALK TO THE HAND result\n" +
-      "TALK TO THE HAND \"Bye\"\n" +
-      "YOU HAVE BEEN TERMINATED\n"
+      "FRONT ROWS TAKE AIM!\n" +
+      "WHAT A DAG \"Input a number:\"\n" +
+      "HELLO CHRIS MOLLOY SPEAKING result\n" +
+      "LOOK AT THIS JOKER 0\n" +
+      "KIDS LOOK OUT THE WINDOW result\n" +
+      "PASS ME THE VEGETABLE MATTER\n" +
+      "HOW ABOUT A GAME OF RUMMIKUB\n" +
+      "WHAT A DAG result\n" +
+      "WHAT A DAG \"Bye\"\n" +
+      "I'LL GO WASH THE DISHES\n"
     getOutput(code) should equal("Input a number:\n123\nBye\n")
   }
 

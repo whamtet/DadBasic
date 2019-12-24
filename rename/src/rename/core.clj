@@ -22,4 +22,7 @@
 (def to-replace
   (concat
     (filter #(.endsWith (.getName %) ".scala") (file-seq (io/file "../src")))
-    ["../README.md"]))
+    ["../README.md" "../../DadBasic.wiki/DadBasic.md"]))
+
+(dorun
+  (map replace-all to-replace))

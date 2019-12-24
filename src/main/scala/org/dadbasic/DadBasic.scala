@@ -31,13 +31,13 @@ object DadBasic {
   def getFilNameFromArgs(args:Array[String]):String = args.length match {
     case 1 => args(0)
     case 2 => args(1)
-    case _ => throw new RuntimeException("WHAT THE FUCK DID I DO WRONG!")
+    case _ => throw new RuntimeException("OH BOTHER!")
   }
 
   def getCommandFromArgs(args:Array[String]):String = args.length match {
     case 2 => args(0)
     case 1 => ""
-    case _ => throw new RuntimeException("WHAT THE FUCK DID I DO WRONG!")
+    case _ => throw new RuntimeException("OH BOTHER!")
   }
 
   def processOption(command:String, argFunc: => String, root: RootNode):Unit = command match {

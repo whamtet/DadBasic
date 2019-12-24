@@ -4,14 +4,14 @@ Programming language based on the Dadisms of Chris Molloy.
 
 ## HelloWorld.basic
 
-	IT'S SHOWTIME
-	TALK TO THE HAND "hello world"
-	YOU HAVE BEEN TERMINATED
+	FRONT ROWS TAKE AIM!
+	WHAT A DAG "hello world"
+	I'LL GO WASH THE DISHES
 
 ## Quick Start
 
 	wget http://lhartikk.github.io/DadBasic.jar
-	echo -e "IT'S SHOWTIME\nTALK TO THE HAND \"hello world\"\nYOU HAVE BEEN TERMINATED" > hello.basic
+	echo -e "FRONT ROWS TAKE AIM!\nWHAT A DAG \"hello world\"\nI'LL GO WASH THE DISHES" > hello.basic
 	java -jar DadBasic.jar hello.basic
 	java hello
 
@@ -23,68 +23,68 @@ To create some "audible" output you can try the -declaim option:
 
 Check the [wiki](http://github.com/whamtet/DadBasic/wiki/DadBasic) for more details
 
-False `I LIED`
+False `NOT REALLY`
 
-True `NO PROBLEMO`
+True `YES`
 
-If `BECAUSE I'M GOING TO SAY PLEASE`
+If `IMAGINE IF`
 
-Else `BULLSHIT`
+Else `OTHERWISE THERE WILL BE A CONSEQUENCE`
 
-EndIf `YOU HAVE NO RESPECT FOR LOGIC`
+EndIf `I'M JUST GOING TO HAVE A FIVE MINUTE NAP`
 
-While `STICK AROUND`
+While `WHILE`
 
-EndWhile `CHILL`
+EndWhile `JUST ONE MORE GAME OF CIV`
 
-PlusOperator `GET UP`
+PlusOperator `MUTOR`
 
-MinusOperator `GET DOWN`
+MinusOperator `LITTLE RATBAG`
 
-MultiplicationOperator `YOU'RE FIRED`
+MultiplicationOperator `PARENTAL UNITS`
 
-DivisionOperator] `HE HAD TO SPLIT`
+DivisionOperator] `GET OUT OF HERE`
 
-ModuloOperator  `I LET HIM GO`
+ModuloOperator  `THERE'S A SHORTCUT AROUND HERE SOMEWHERE`
 
-EqualTo `YOU ARE NOT YOU YOU ARE ME`
+EqualTo `NOW WHAT DOES THIS REMIND YOU OF`
 
-GreaterThan `LET OFF SOME STEAM BENNET`
+GreaterThan `TASTIER THAN`
 
-Or `CONSIDER THAT A DIVORCE`
+Or `NASE BLASEN`
 
-And `KNOCK KNOCK`
+And `AND`
 
-DeclareMethod `LISTEN TO ME VERY CAREFULLY`
+DeclareMethod `CONSTRUCTION STARTED`
 
-NonVoidMethod `GIVE THESE PEOPLE AIR`
+NonVoidMethod `RIGHTO`
 
-MethodArguments `I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE`
+MethodArguments `I DIDN'T CATCH THAT`
 
-Return `I'LL BE BACK`
+Return `HERE YOU GO`
 
-EndMethodDeclaration `HASTA LA VISTA, BABY`
+EndMethodDeclaration `I'M STUFFED`
 
-CallMethod `DO IT NOW`
+CallMethod `PASS ME THE VEGETABLE MATTER`
 
-AssignVariableFromMethodCall `GET YOUR ASS TO MARS`
+AssignVariableFromMethodCall `KIDS LOOK OUT THE WINDOW`
 
-DeclareInt `HEY CHRISTMAS TREE`
+DeclareInt `HELLO CHRIS MOLLOY SPEAKING`
 
-SetInitialValue `YOU SET US UP`
+SetInitialValue `LOOK AT THIS JOKER`
 
-BeginMain `IT'S SHOWTIME`
+BeginMain `FRONT ROWS TAKE AIM!`
 
-EndMain `YOU HAVE BEEN TERMINATED`
+EndMain `I'LL GO WASH THE DISHES`
 
-Print `TALK TO THE HAND`
+Print `WHAT A DAG`
 
-ReadInteger `I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY`
+ReadInteger `HOW ABOUT A GAME OF RUMMIKUB`
 
-AssignVariable `GET TO THE CHOPPER`
+AssignVariable `WHAT A HARD CASE`
 
-SetValue `HERE IS MY INVITATION`
+SetValue `YOU CRACK ME UP`
 
-EndAssignVariable `ENOUGH TALK`
+EndAssignVariable `I'VE EATEN TOO MUCH`
 
-ParseError `WHAT THE FUCK DID I DO WRONG`
+ParseError `OH BOTHER`
